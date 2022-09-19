@@ -1,0 +1,31 @@
+h1{
+  font-size: 50px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: yellow;
+  border: 2px dashed orange;
+}
+/*
+li {
+  color: green
+}
+*/
+body {
+  background-image: url('https://s2.glbimg.com/RqGbzGJup4JRXITFWDfUYFYIn68=/0x0:2800x3949/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/u/w/UcAnvtTUqVEPrHAZ3V1g/ap20151703327844.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.yellow-text {
+  color: yellow;
+  font-size: 20px;
+}
+.big-text {
+  font-size: 40px;
+}
+#europa-text {
+  font-size: 10px;
+  color: blue;
+}
+li {
+  color: grey;
+}

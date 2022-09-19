@@ -1,0 +1,17 @@
+
+//Faremos um aplicativo que fara o mapeamento de velocidade de uma espaçonave
+
+//Neste aplicativo, vamos cadastrar uma espaçonave com seu nome, tipo e a velocidade maxima
+//que esta nave pode atingir para que não entre em combustão 
+
+//nave deve partir da velocidade 0kms
+
+// menu deve ser exibido para o usuário perguntando se ele quer acelerar ou para a nave
+// Se ele quiser parar, uma mensagem deve ser exibida com as caracteírsticas da nave (nome e tipo)
+// e em que velocidade estava
+
+// se ele quiser acelerar, deve ser exibido um prompt para que ele informe quanto ele quer acelerar e este valor
+//será incrementando na velocidade
+
+//Quando a velocidade for incrementanda, deve-se fazer uma verificaçaõ para ver se a espaçonave está acima da velocidade
+//maxima dela, se ela estiver, uma mensagem deve ser exibida informando a velocidade da nave e a velocidade máxima permitida.

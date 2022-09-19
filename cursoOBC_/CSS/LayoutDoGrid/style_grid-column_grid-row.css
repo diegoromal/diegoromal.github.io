@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: darkgray;
+  min-height: 100vh;
+  display: grid; /*ocupa todos os espaços do layout */
+  grid-template-columns: repeat(2, 1fr); /* no lugar do repeat pode se usar 1fr 1fr 1fr (para 3 colunas) - divisao das colunas -  usar sempre % ou frames (fr) pois são responsivos*/
+  gap: 10px 15px; /* para divisão de linhas e colunas (variação(junção) de gap-row e gap-column) */
+  /*grid-template-rows: repeat(3, fr); no lugar do repeat pode se usar 1fr 1fr 1fr (para 3 linhas) - divisao das linhas -  usar sempre % ou frames (fr) pois são responsivos*/
+  grid-auto-rows: minmax(80px, auto); /* tamanho minimo e máximo da linha */
+}
+
+.item {
+  background-color: white;
+  border: 2px solid black;
+  font-size: 30px;
+  padding: 10px; /*evitar que os itens fiquem colados*/
+}
+
+.item1 {
+  grid-column: 1/3; /*Ele define o tamanho da coluna do item, quantidade de colunas varia de acordo com os frames definidos em grid-template-columns*/
+}
+.item2 {
+  grid-row: 2/4;
+}
+.item5 {
+  grid-column: 1/3;
+  grid-row: 4/6;
+}
+* .item7 {
+  grid-column: 2/3;
+  grid-row: 6/8; /*Ele define o tamanho da linha do item, quantidade de linhas varia de acordo com os frames definidos em grid-template-columns*/
+}
+.item9 {
+  grid-column: 1/3;
+}

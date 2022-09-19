@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cadastro da liga dos astronautas</title>
+    </head>
+    <body>
+        <h3>Cadastro da liga dos astronautas</h3>
+        <form>
+            <label for="name">Nome: </label><input type="text" name="name" required><br><br>
+            <label for="email"></label> Email: </label><input type="email" name="email"> - 
+            <label for="password">Password: </label><input type="password" name="password"><br><br>
+            <label for="datanasc">Data de nascimento: </label><input type="date" name="datanasc"> - 
+            <label for="foto">Foto: </label><input type="file" name="foto"><br><br>
+            <label for="nacionalidade">Nacionalidade: </label>
+            <select name="nacionalidade">
+                <option value="Russo">Russo</option>
+                <option value="Americano">Americano</option>
+                <option value="Brasileiro">Brasileiro</option>
+            </select> - 
+            <label for="genero">Genero: </label><label for="genero">F</label><input type="radio" name="genero"><label for="genero">M</label><input type="radio" name="genero"><br><br>
+            <label for="qualidades">Suas principais qualidades:</label><br>
+            <label for="qualidades">Inteligência</label><input type="checkbox" name="qualidades"> |
+            <label for="qualidades">Resiliência</label><input type="checkbox" name="qualidades"> |
+            <label for="qualidades">Preparo Físico</label><input type="checkbox" name="qualidades"> |
+            <label for="qualidades">Educação</label><input type="checkbox" name="qualidades"> |<br><br>
+            <textarea type="message" rows="10" cols="30" id="porque" name="porque">Porque você gostaria de ser um astronauta?</textarea><br><br>
+            <input type="submit" value="Criar">
+        </form>
+        
+    </body>
+</html>

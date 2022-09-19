@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SpaceX</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="logo.png" alt="">
+                </a> | 
+                <a href="spaceships.html">The Spaceships</a> | 
+                <a href="hireus.html">Hire Us</a>
+            </nav>
+            <hr>
+        </header>
+        <section>
+            <h1>Hire Us Now</h1>
+            <p>Leave a message to request one of our services and we will get back to you as soom as possible.</p>
+        </section>
+        <br><br>
+        <section>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name"> - 
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <br><br>
+                <div>
+                    <label for="spaceship">Spaceship:</label>
+                    <select name="spaceship" id="spaceship">
+                        <option value="falcon-9">Falcon 9</option>
+                        <option value="falcon-heavy">Falcon Heavy</option>
+                    </select> | 
+                    <label for="type-of-service">Type of Service:</label>
+                    <input type="search" name="type-of-service" id="type-of-service" list="service">
+                    <datalist id="service">
+                        <option value="Lorem ipsum enim dolor, ut.">
+                        <option value="Velit iaculis nunc sollicitudin, quisque.">
+                        <option value="Duis aliquam hac neque, scelerisque.">
+                        <option value="Condimentum vestibulum semper vivamus, est.">
+                    </datalist>
+                </div>
+                <br><br>
+                <div>
+                    <input type="button" value="Send Message">
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
