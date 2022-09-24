@@ -56,6 +56,27 @@
   }
 }
 
+// Download description page 2 and 3
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+
+  a {
+    text-decoration: none;
+    color: $link-hover;
+
+    &:hover {
+      color: $table-item-color;
+    }
+  }
+
+  button {
+    border: 2px solid white;
+    margin-right: 10px;
+  }
+}
+
 // media query
 @media (max-widht: 405px) {
   .logoPc {
