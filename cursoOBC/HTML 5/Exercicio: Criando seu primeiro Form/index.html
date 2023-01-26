@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <div>
+      <label for="name">Nome: </label>
+      <input type="text" name="name" id="name" required />
+    </div>
+    <br />
+    <div>
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" required />
+      <label for="pwd"> - Password: </label>
+      <input type="password" name="pwd" id="pwd" required />
+    </div>
+    <br />
+    <div>
+      <label for="birthday">Data de Nascimento: </label>
+      <input type="date" name="birthday" id="birthday" required />
+      <label for="picture"> - Foto: </label>
+      <input type="file" name="picture" id="picture" required />
+    </div>
+    <br />
+    <div>
+      <label for="nationality">Nacionalidade: </label>
+      <select name="nationality" id="nationality" required>
+        <option value="Russo">Russo</option>
+        <option value="Chines">Chines</option>
+        <option value="Americano">Americano</option>
+      </select>
+      - Gênero:
+      <label for="genreFemale">F</label>
+      <input
+        type="checkbox"
+        name="genreFemale"
+        id="genreFemale"
+        value="genreFemale"
+      />
+      <label for="genreMale">M</label>
+      <input
+        type="checkbox"
+        name="genreMale"
+        id="genreMale"
+        value="genreMale"
+      />
+    </div>
+    <div>
+      <p>Suas principais qualidades:</p>
+      <label for="quality">Inteligência</label>
+      <input type="radio" name="quality" id="quality" value="quality" />
+      <label for="resilience">| Resiliência</label>
+      <input
+        type="radio"
+        name="resilience"
+        id="resilience"
+        value="resilience"
+      />
+      <label for="physicalPreparation">| Preparo físico</label>
+      <input
+        type="radio"
+        name="physicalPreparation"
+        id="physicalPreparation"
+        value="physicalPreparation"
+      />
+      <label for="education">| Educação</label>
+      <input type="radio" name="education" id="education" value="education" />
+    </div>
+    <br />
+    <div>
+      <textarea
+        name="message"
+        rows="10"
+        cols="30"
+        placeholder="Porque você gostaria de ser um astronauta?"
+      ></textarea>
+    </div>
+    <div><input type="submit" value="" /></div>
+  </body>
+</html>
